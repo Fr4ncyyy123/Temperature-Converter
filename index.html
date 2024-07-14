@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Password Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+  /* Reset */
+  body, html{ font-family: 'Intro', Arial, Helvetica, sans-serif; line-height: 1; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol,ul{padding-left: 20px;line-height: 1.5;}img{height: auto;}h1{font-size: 4rem;} h2{font-size: 3rem;} h3{font-size: 2rem;} h4{font-size: 1rem;} h5{font-size: 0.8rem;} h6{font-size: 0.6rem;}a{text-decoration:none}
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <h3>Temperature Convertor</h3>
+    <div class="cont">
+    <h4>Celsius:</h4>
+    <input type="number" id="Celsius">
+    </div>
+    <div class="cont">
+    <h4>Farenheit:</h4>
+    <input type="number" id="Farenheit">
+    </div>
+    <div class="cont">
+    <h4>Kelvin:</h4>
+    <input type="number" id="Kelvin">
+    </div>
+    <div class="btns">
+    <button class="btn" id="btn0" onclick="Clean();">Azzera</button>
+    <button class="btn" id="btn1" onclick="Converti();">Converti</button>
+    </div>
+    <div class="clean"><p class="cleanP" style="display:none; color:green; position: absolute;">I valori sono stati resettati con successo!</p></div>
+    <div class="noValues"><p class="NoValuesP" style="display:none; color:red; position: absolute;left:50%;transform: translateX(-50%);">Nessun valore nei campi di testo.</p></div>
+    </div>
+    <script src="script.js"></script>
+   <script> /* js code */ </script>
+
+</body>
+</html>
